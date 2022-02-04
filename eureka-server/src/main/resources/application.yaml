@@ -1,0 +1,11 @@
+server:
+  port: 8761 # eureka ?? ?? 8761
+
+spring:
+  application:
+    name: msaservice # ?? ?? id
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
